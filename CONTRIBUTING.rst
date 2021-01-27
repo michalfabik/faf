@@ -158,7 +158,11 @@ or feature.
 * Hack, hack, hack.
 * Run tests again, making sure they pass.
 * ``git commit -m "Foo the bars"``
-* ``git push origin HEAD`` to get it back up to your fork
+* ``git push origin HEAD`` to get it back up to your fork 
+Note: You can set up a helpful commit message template for your text editor by
+running `$ git config commit.template .git-commit-template`. Remember though
+that committing with `git commit -m` defeats its purpose. You might want to
+rethink your habits.
 * Visit Github, click handy "Pull request" button that it will make upon
   noticing your new branch.
 * In the description field, write down issue number (if submitting code fixing
